@@ -5,7 +5,7 @@ compatibility_date = "2025-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "airlink-db"
-database_id = "local-dev"
+database_id = "85a29dd2-b5bc-48a8-8fe2-b0226d5ebd0e"
 
 [vars]
-ENVIRONMENT = "development"
+ENVIRONMENT = "production"

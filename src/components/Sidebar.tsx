@@ -8,19 +8,19 @@ export default function Sidebar() {
     const [activeNav, setActiveNav] = useState('home');
 
     const navItems = [
-        { id: 'home', label: 'ホーム', icon: '🏠' },
-        { id: 'search', label: '検索', icon: '🔍' },
-        { id: 'notifications', label: '通知', icon: '🔔', badge: 3 },
-        { id: 'channels', label: 'チャンネル', icon: '💬' },
-        { id: 'bookmarks', label: 'ブックマーク', icon: '📚' },
-        { id: 'profile', label: 'プロフィール', icon: '👤' },
+        { id: 'home', label: 'ホーム', icon: 'H' },
+        { id: 'search', label: '検索', icon: 'S' },
+        { id: 'notifications', label: '通知', icon: 'N', badge: 3 },
+        { id: 'channels', label: 'チャンネル', icon: 'C' },
+        { id: 'bookmarks', label: 'ブックマーク', icon: 'B' },
+        { id: 'profile', label: 'プロフィール', icon: 'P' },
     ];
 
     return (
         <aside className={styles.sidebar}>
             {/* ロゴ */}
             <div className={styles.logo}>
-                <span className={styles.logoIcon}>💨</span>
+                <span className={styles.logoIcon}>A</span>
                 <span className={styles.logoText}>AirLink</span>
             </div>
 

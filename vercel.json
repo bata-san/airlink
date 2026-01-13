@@ -7,6 +7,6 @@
   "devCommand": "npm run dev",
   "regions": ["hnd1"],
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://airlink-api.<your-subdomain>.workers.dev"
+    "NEXT_PUBLIC_API_URL": "https://airlink-api.youguitest.workers.dev"
   }
 }

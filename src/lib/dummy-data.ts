@@ -7,7 +7,7 @@ export const dummyUsers: User[] = [
         username: 'sakura_dev',
         displayName: '桜井 開発',
         avatarUrl: 'https://api.dicebear.com/7.x/notionists/svg?seed=sakura',
-        bio: 'フロントエンド開発者。React/Next.js が得意です 🌸',
+        bio: 'フロントエンド開発者。React/Next.js が得意です',
         createdAt: '2025-01-01T00:00:00Z',
         followersCount: 1284,
         followingCount: 342,
@@ -17,7 +17,7 @@ export const dummyUsers: User[] = [
         username: 'yuki_design',
         displayName: '雪村 デザイン',
         avatarUrl: 'https://api.dicebear.com/7.x/notionists/svg?seed=yuki',
-        bio: 'UI/UXデザイナー。ミニマルなデザインが好き ❄️',
+        bio: 'UI/UXデザイナー。ミニマルなデザインが好き',
         createdAt: '2025-02-15T00:00:00Z',
         followersCount: 2156,
         followingCount: 189,
@@ -27,7 +27,7 @@ export const dummyUsers: User[] = [
         username: 'haru_cloud',
         displayName: '春田 クラウド',
         avatarUrl: 'https://api.dicebear.com/7.x/notionists/svg?seed=haru',
-        bio: 'インフラエンジニア。Cloudflare推し ☁️',
+        bio: 'インフラエンジニア。Cloudflare推し',
         createdAt: '2025-03-20T00:00:00Z',
         followersCount: 876,
         followingCount: 423,
@@ -37,7 +37,7 @@ export const dummyUsers: User[] = [
         username: 'natsu_code',
         displayName: '夏目 コード',
         avatarUrl: 'https://api.dicebear.com/7.x/notionists/svg?seed=natsu',
-        bio: 'バックエンド開発者。TypeScript愛好家 🌻',
+        bio: 'バックエンド開発者。TypeScript愛好家',
         createdAt: '2025-04-10T00:00:00Z',
         followersCount: 1567,
         followingCount: 521,
@@ -47,7 +47,7 @@ export const dummyUsers: User[] = [
         username: 'aki_mobile',
         displayName: '秋山 モバイル',
         avatarUrl: 'https://api.dicebear.com/7.x/notionists/svg?seed=aki',
-        bio: 'Flutterでアプリ作ってます 🍂',
+        bio: 'Flutterでアプリ作ってます',
         createdAt: '2025-05-05T00:00:00Z',
         followersCount: 943,
         followingCount: 267,
@@ -59,16 +59,16 @@ export const dummyPosts: Post[] = [
     {
         id: 'post-1',
         author: dummyUsers[0],
-        content: `AirLinkの開発が順調に進んでいます！ 🚀
+        content: `AirLinkの開発が順調に進んでいます
 
 サーバーレスアーキテクチャの恩恵で、インフラコストを大幅に削減できそう。Cloudflare Workers + D1 の組み合わせは本当に素晴らしい。
 
 #開発日記 #サーバーレス`,
         createdAt: '2026-01-13T22:30:00Z',
         reactions: [
-            { emoji: '👍', count: 24, hasReacted: true },
-            { emoji: '🚀', count: 18, hasReacted: false },
-            { emoji: '❤️', count: 12, hasReacted: false },
+            { emoji: '+1', count: 24, hasReacted: true },
+            { emoji: 'rocket', count: 18, hasReacted: false },
+            { emoji: 'heart', count: 12, hasReacted: false },
         ],
         replyCount: 5,
         repostCount: 3,
@@ -81,12 +81,12 @@ export const dummyPosts: Post[] = [
 
 マットな質感と40pxグリッドを基準にした座標系がポイント。影やぼかしを使わずに、色の明度差と極細ボーダーだけで奥行きを表現するのが挑戦。
 
-ミニマルだけど、ちゃんと使いやすいUIを目指してます ✨`,
+ミニマルだけど、ちゃんと使いやすいUIを目指してます`,
         createdAt: '2026-01-13T21:15:00Z',
         reactions: [
-            { emoji: '✨', count: 31, hasReacted: false },
-            { emoji: '👀', count: 15, hasReacted: true },
-            { emoji: '💯', count: 9, hasReacted: false },
+            { emoji: 'sparkles', count: 31, hasReacted: false },
+            { emoji: 'eyes', count: 15, hasReacted: true },
+            { emoji: '100', count: 9, hasReacted: false },
         ],
         replyCount: 8,
         repostCount: 7,
@@ -99,12 +99,12 @@ export const dummyPosts: Post[] = [
 
 エッジでのクエリ実行が爆速すぎる。レイテンシが従来のRDSと比較して約70%削減。これはゲームチェンジャーだ。
 
-次はDurable Objectsでリアルタイム通知を実装する予定 ⚡`,
+次はDurable Objectsでリアルタイム通知を実装する予定`,
         createdAt: '2026-01-13T20:00:00Z',
         reactions: [
-            { emoji: '⚡', count: 42, hasReacted: false },
-            { emoji: '🔥', count: 28, hasReacted: true },
-            { emoji: '🎉', count: 16, hasReacted: false },
+            { emoji: 'zap', count: 42, hasReacted: false },
+            { emoji: 'fire', count: 28, hasReacted: true },
+            { emoji: 'tada', count: 16, hasReacted: false },
         ],
         replyCount: 12,
         repostCount: 15,
@@ -120,8 +120,8 @@ HonoとZodを組み合わせると、エンドポイントからクライアン�
 皆さんはバリデーションライブラリ何使ってますか？`,
         createdAt: '2026-01-13T18:45:00Z',
         reactions: [
-            { emoji: '🤔', count: 19, hasReacted: false },
-            { emoji: '💡', count: 14, hasReacted: false },
+            { emoji: 'thinking', count: 19, hasReacted: false },
+            { emoji: 'bulb', count: 14, hasReacted: false },
         ],
         replyCount: 23,
         repostCount: 4,
@@ -130,17 +130,17 @@ HonoとZodを組み合わせると、エンドポイントからクライアン�
     {
         id: 'post-5',
         author: dummyUsers[4],
-        content: `FlutterでAirLinkのモバイル版プロトタイプ完成！
+        content: `FlutterでAirLinkのモバイル版プロトタイプ完成
 
 ワンソースでiOS/Android両対応できるのはやっぱり便利。
-ネイティブに近い滑らかなアニメーションも実現できた 📱
+ネイティブに近い滑らかなアニメーションも実現できた
 
 来週からテスト配布始めます`,
         createdAt: '2026-01-13T17:30:00Z',
         reactions: [
-            { emoji: '📱', count: 35, hasReacted: true },
-            { emoji: '🎊', count: 22, hasReacted: false },
-            { emoji: '👏', count: 18, hasReacted: false },
+            { emoji: 'mobile', count: 35, hasReacted: true },
+            { emoji: 'celebration', count: 22, hasReacted: false },
+            { emoji: 'clap', count: 18, hasReacted: false },
         ],
         replyCount: 9,
         repostCount: 11,
